@@ -1,0 +1,12 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 19%, rgba(222,160,44,1) 56%, rgb(218, 99, 44) 95%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}

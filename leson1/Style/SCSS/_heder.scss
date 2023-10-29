@@ -1,0 +1,20 @@
+.header {
+    width: 100vw;
+    height: 5vw;
+}
+
+.header__content {
+    width: 100vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center; // jeśli chcesz także wyśrodkować w poziomie
+
+    h2 {
+        display: inline;
+        text-align: center;
+        font-size: $h2-size;
+        margin: 20px;
+        color: $Font-bazic-color;
+    }
+}
